@@ -71,6 +71,97 @@ header .compte img {
   width: 40px;
 }
 
+@media (max-width: 80rem) {
+  header {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    width: 80%;
+    height: 17vh;
+  }
+  header .logo {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    width: 15%;
+    height: 100%;
+  }
+  header .logo img {
+    width: 205px;
+    height: 47px;
+  }
+  header .name {
+    display: none;
+  }
+  header .bar {
+    width: 30%;
+    height: 50px;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    background-color: white;
+    color: black;
+    padding-left: 20px;
+  }
+  header .bar img {
+    width: 30px;
+    height: 30px;
+  }
+  header .bar h4 {
+    padding-left: 5%;
+    font-size: 22px;
+    font-weight: 400;
+  }
+  header .notif {
+    width: 12%;
+    display: flex;
+    justify-content: center;
+  }
+  header .notif img {
+    height: 35px;
+    width: 30px;
+  }
+  header .compte {
+    width: 15%;
+    padding-right: 5%;
+    display: flex;
+    justify-content: end;
+  }
+  header .compte img {
+    height: 40px;
+    width: 40px;
+  }
+}
+@media (max-width: 40rem) {
+  header {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    width: 90%;
+    height: 17vh;
+  }
+  header .logo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 55%;
+    height: 100%;
+  }
+  header .logo img {
+    width: 175px;
+    height: 47px;
+  }
+  header .name {
+    display: none;
+  }
+  header .bar {
+    display: none;
+  }
+}
 section {
   width: 100%;
   height: 100vh;
@@ -554,6 +645,9 @@ section .infotrade #black {
 body {
   font-family: "Poppins", sans-serif;
   background-color: black;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 /*# sourceMappingURL=output.css.map */
