@@ -554,3 +554,1037 @@ section {
 #order {
     color: rgb(68, 0, 91);
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (max-width: 80rem) {
+
+    section {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+        .box {
+            width: 100%;
+            height: 10%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+
+            img {
+                width: 32px;
+                height: 28px;
+            }
+
+            .box_color {
+                display: none;
+            }
+
+            .minibox_section {
+                color: #ffffffcb;
+                display: flex;
+                align-items: center;
+                justify-content: flex-start;
+                flex-direction: row;
+                padding-top: 1%;
+                height: 10%;
+                width: 70%;
+            }
+
+            .microbox {
+                padding: 10px 0px;
+                display: flex;
+                flex-direction: row;
+                align-items: center;
+                width: 50%;
+
+                h4 {
+                    padding-left: 10px;
+                    font-size: 14px;
+                    font-weight: 400;
+                }
+
+                img {
+                    width: 25px;
+                    height: 20px;
+                }
+
+                #cli {
+                    width: 25px;
+                    height: 15px;
+                }
+
+                #set {
+                    width: 25px;
+                    height: 25px;
+                }
+
+            }
+
+            .log {
+                display: none;
+            }
+        }
+
+        .balance {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            width: 90%;
+            height: 100vh;
+            color: white;
+            padding-left: 0;
+            padding-top: 5%;
+
+            .headBalance {
+                height: 20%;
+                width: 100%;
+                display: flex;
+                flex-direction: row;
+                align-items: center;
+                justify-content: flex-start;
+
+                .compteur {
+                    width: 35%;
+                    height: 100%;
+                    margin: 10px 0px;
+
+                    h5 {
+                        font-size: 18px;
+                        font-weight: 800;
+                        color: #b4b4b4;
+                    }
+
+                    h3 {
+                        font-size: 25px;
+                        font-weight: 500;
+                        padding: 10px 0px;
+
+                        span {
+                            font-size: 14px;
+                            color: black;
+                            margin-left: 10px;
+                            background-color: #FAFF00;
+                            padding: 6px;
+                            border-radius: 8px;
+                        }
+                    }
+
+                    h6 {
+                        font-size: 16px;
+                        color: #b4b4b4;
+                        font-weight: 600;
+                    }
+                }
+
+                .PFAP {
+                    width: 45%;
+                    height: 50%;
+                    border-radius: 16px;
+                    background-color: #323232;
+                    display: flex;
+                    align-items: center;
+                    justify-content: space-around;
+                    padding: 10px;
+
+                    .active {
+                        padding: 10px 20px;
+                        background-color: #101010;
+                        border-radius: 16px;
+                    }
+
+                    h3 {
+                        font-weight: 500;
+                    }
+                }
+            }
+
+            .bodyBalance {
+                display: flex;
+                flex-direction: column;
+                width: 100%;
+                height: 55%;
+                background-color: #323232;
+                border-radius: 16px;
+                padding: 20px 20px 40px 30px;
+
+                .headbodybalance {
+                    display: flex;
+                    flex-direction: row;
+                    justify-content: space-between;
+                    width: 100%;
+                    height: 15%;
+
+                    .day {
+                        display: flex;
+                        flex-direction: row;
+                        align-items: center;
+                        justify-content: space-between;
+                        width: 40%;
+
+                        h1 {
+                            background-color: #101010;
+                            padding: 5px;
+                            border-radius: 6px;
+                            font-weight: 400;
+                        }
+
+                        .calen {
+                            background-color: #101010;
+                            padding: 5px;
+                            border-radius: 6px;
+                            display: flex;
+                            align-items: center;
+                            justify-content: center;
+                            width: 41px;
+                            height: 37px;
+
+                            img {
+                                width: 22px;
+                                height: 22px;
+                            }
+                        }
+
+                    }
+
+                    .transc {
+                        width: 45%;
+                        height: 100%;
+                        display: flex;
+                        flex-direction: row;
+                        align-items: center;
+                        justify-content: space-between;
+
+                        .Bitcoin {
+                            display: flex;
+                            align-items: center;
+                            justify-content: space-around;
+                            background-color: #101010;
+                            width: 40%;
+                            padding: 2px 0;
+
+                            #flec {
+                                width: 15px;
+                                height: 10px;
+                            }
+
+                            img {
+                                width: 25px;
+                                height: 25px;
+                            }
+                        }
+
+                        img {
+                            width: 35px;
+                            height: 20px;
+                        }
+                    }
+                }
+
+                .bodi {
+                    width: 100%;
+                    height: 85%;
+                    display: flex;
+                    flex-direction: row;
+                    padding-top: 10px;
+
+                    .price {
+                        display: flex;
+                        flex-direction: column;
+                        justify-content: space-between;
+                        width: 10%;
+                        height: 100%;
+
+                        h4 {
+                            font-size: 14px;
+                            color: #b4b4b4;
+                            padding-left: 5px;
+                        }
+                    }
+
+                    .graph {
+                        width: 90%;
+                        height: 100%;
+
+                        img {
+                            width: 100%;
+                            height: 100%;
+                        }
+                    }
+                }
+
+                .date {
+                    padding-top: 10px;
+                    width: 100%;
+                    height: 20%;
+                    display: flex;
+                    justify-content: flex-end;
+
+                    .datebox {
+                        width: 95%;
+                        display: flex;
+                        flex-direction: row;
+                        justify-content: space-between;
+
+                        h4 {
+                            font-size: 14px;
+                            color: #b4b4b4;
+                            padding-left: 5px;
+                        }
+                    }
+                }
+            }
+
+            .footerbalance {
+                width: 100%;
+                height: 30%;
+
+                .headfooterbalance {
+                    padding-top: 5%;
+                    height: 20%;
+                    width: 100%;
+                    display: flex;
+                    flex-direction: row;
+                    justify-content: space-between;
+                    align-items: center;
+
+                    h4 {
+                        font-size: 24px;
+                        color: white;
+                        font-weight: 700;
+                    }
+
+                    h5 {
+                        font-size: 18px;
+                        color: rgb(121, 121, 121);
+                        font-weight: 700;
+                    }
+                }
+
+                .card {
+                    display: flex;
+                    flex-direction: row;
+                    align-items: center;
+                    justify-content: space-around;
+                    width: 100%;
+                    background: rgba(32, 35, 43, 0.7);
+                    filter: blur(0px);
+                    border-radius: 30px;
+                    height: 40%;
+                    padding: 20px 0;
+                    margin: 20px 0;
+
+                    img {
+                        width: 45px;
+                        height: 45px;
+                    }
+
+                    #courbe {
+                        width: 90px;
+                        height: 20px;
+                    }
+
+                    button {
+                        padding: 15px 25px;
+                        background-color: black;
+                        border: none;
+                        color: white;
+                        border-radius: 50px;
+                        font-size: 20px;
+                    }
+                }
+            }
+        }
+
+        .infotrade {
+            padding-top: 2%;
+            padding-left: 0%;
+            width: 90%;
+            display: flex;
+            justify-content: space-between;
+            flex-direction: column;
+            align-items: center;
+
+            .recent {
+                display: flex;
+                flex-direction: column;
+                width: 100%;
+                height: 100%;
+
+                .title_recent {
+                    padding: 7% 0;
+                    width: 100%;
+                    height: 15%;
+
+                    h3 {
+                        font-size: 22px;
+                        color: white;
+                        font-weight: 700;
+                    }
+                }
+
+                .trade {
+                    width: 100%;
+                    height: 75%;
+                    display: flex;
+                    flex-direction: column;
+                    justify-content: space-between;
+
+                    .carditrade {
+                        padding: 1% 0;
+                        width: 100%;
+                        height: 15%;
+                        display: flex;
+                        flex-direction: row;
+                        justify-content: space-between;
+
+                        .image {
+                            width: 20%;
+
+                            img {
+                                display: flex;
+                                align-items: center;
+                                width: 45px;
+                                height: 45px;
+                            }
+
+                            #bin {
+                                width: 52px;
+                                padding-left: 5px;
+                            }
+
+                            #late {
+                                width: 63px;
+                                padding-left: 5px;
+                            }
+
+                            #left {
+                                padding-left: 5px;
+                                width: 52px;
+                            }
+                        }
+
+
+
+                        .name {
+                            width: 25%;
+                            height: 100%;
+                            display: flex;
+                            flex-direction: column;
+
+                            h4 {
+                                font-size: 18px;
+                                color: white;
+                            }
+
+                            h6 {
+                                font-size: 14px;
+                                color: #646464;
+                            }
+                        }
+
+                        .info {
+                            width: 45%;
+                            display: flex;
+                            flex-direction: column;
+
+                            h6 {
+                                font-size: 15px;
+                                font-weight: 700;
+                                color: #646464;
+                            }
+
+                        }
+                    }
+                }
+            }
+
+            .assets {
+                display: flex;
+                flex-direction: column;
+                padding-top: 5%;
+                justify-content: space-between;
+                width: 100%;
+                height: 50%;
+
+                h1 {
+                    font-size: 22px;
+                    color: white;
+                    font-weight: 700;
+                    align-items: start;
+                }
+
+                .card_assets {
+                    width: 90%;
+                    height: 40%;
+                    display: flex;
+                    flex-direction: row;
+                    justify-content: space-between;
+                    padding: 20px;
+                    border-radius: 16px;
+                    background: linear-gradient(98.73deg, #611D8D 35.75%, #2F7EC1 73.26%);
+                    border-radius: 30px;
+
+                    .compteur {
+                        display: flex;
+                        flex-direction: row;
+                        align-items: center;
+                        width: 80%;
+                        justify-content: space-around;
+
+
+                        img {
+                            width: 55px;
+                            height: 55px;
+                        }
+
+                        h6 {
+                            font-size: 22px;
+                            font-weight: 700;
+                            color: white;
+                            padding: 5px 0;
+                        }
+
+                        h3 {
+                            font-size: 20px;
+                            color: white;
+                            font-weight: 500;
+                        }
+                    }
+
+                    .name {
+                        width: 25%;
+                        display: flex;
+                        align-items: center;
+
+                        h5 {
+                            font-size: 20px;
+                            color: white;
+                        }
+                    }
+                }
+            }
+
+            #black {
+                color: #101010;
+            }
+        }
+
+    }
+
+}
+
+
+@media (max-width: 45rem) {
+
+    section {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+        .box {
+            width: 100%;
+            height: 10%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+
+            img {
+                width: 32px;
+                height: 28px;
+            }
+
+            .box_color {
+                display: none;
+            }
+
+            .minibox_section {
+                display: none;
+            }
+
+            .log {
+                display: none;
+            }
+        }
+
+        .balance {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            width: 90%;
+            height: 100vh;
+            color: white;
+            padding-left: 0;
+            padding-top: 5%;
+
+            .headBalance {
+                height: 20%;
+                width: 100%;
+                display: flex;
+                flex-direction: row;
+                align-items: center;
+                justify-content: center;
+
+                .compteur {
+                    display: flex;
+                    flex-direction: column;
+                    justify-content: center;
+                    width: 50%;
+                    height: 100%;
+                    margin: 10px 0px;
+
+                    h5 {
+                        font-size: 18px;
+                        font-weight: 800;
+                        color: #b4b4b4;
+                    }
+
+                    h3 {
+                        font-size: 25px;
+                        font-weight: 500;
+                        padding: 10px 0px;
+
+                        span {
+                            font-size: 14px;
+                            color: black;
+                            margin-left: 10px;
+                            background-color: #FAFF00;
+                            padding: 6px;
+                            border-radius: 8px;
+                        }
+                    }
+
+                    h6 {
+                        font-size: 16px;
+                        color: #b4b4b4;
+                        font-weight: 600;
+                    }
+                }
+
+                .PFAP {
+                    width: 55%;
+                    height: 50%;
+                    border-radius: 16px;
+                    background-color: #323232;
+                    display: flex;
+                    align-items: center;
+                    justify-content: space-around;
+                    padding: 5px;
+
+                    .active {
+                        padding: 5px 10px;
+                        background-color: #101010;
+                        border-radius: 16px;
+                    }
+
+                    h3 {
+                        font-size: 12px;
+                        font-weight: 500;
+                    }
+                }
+            }
+
+            .bodyBalance {
+                display: flex;
+                flex-direction: column;
+                width: 100%;
+                height: 55%;
+                background-color: #323232;
+                border-radius: 16px;
+                padding: 5px 10px 5px 10px;
+
+                .headbodybalance {
+                    display: flex;
+                    flex-direction: row;
+                    justify-content: space-between;
+                    width: 100%;
+                    height: 15%;
+
+                    .day {
+                        display: flex;
+                        flex-direction: row;
+                        align-items: center;
+                        justify-content: space-between;
+                        width: 40%;
+
+                        h1 {
+                            background-color: #101010;
+                            padding: 5px;
+                            border-radius: 6px;
+                            font-size: 10px;
+                            font-weight: 400;
+                        }
+
+                        .calen {
+                            background-color: #101010;
+                            padding: 5px;
+                            border-radius: 6px;
+                            display: flex;
+                            align-items: center;
+                            justify-content: center;
+                            width: 23px;
+                            height: 23px;
+
+                            img {
+                                width: 12px;
+                                height: 12px;
+                            }
+                        }
+
+                    }
+
+                    .transc {
+                        width: 55%;
+                        height: 100%;
+                        display: flex;
+                        flex-direction: row;
+                        align-items: center;
+                        justify-content: space-between;
+
+                        .Bitcoin {
+                            display: flex;
+                            align-items: center;
+                            justify-content: space-around;
+                            background-color: #101010;
+                            width: 50%;
+                            padding: 2px 0;
+
+                            #flec {
+                                width: 15px;
+                                height: 10px;
+                            }
+
+                            img {
+                                width: 20px;
+                                height: 20px;
+                            }
+                        }
+
+                        img {
+                            width: 35px;
+                            height: 20px;
+                        }
+                    }
+                }
+
+                .bodi {
+                    width: 100%;
+                    height: 85%;
+                    display: flex;
+                    flex-direction: row;
+                    padding-top: 10px;
+
+                    .price {
+                        display: flex;
+                        flex-direction: column;
+                        justify-content: space-between;
+                        width: 10%;
+                        height: 100%;
+
+                        h4 {
+                            font-size: 10px;
+                            color: #b4b4b4;
+                            padding-left: 5px;
+                        }
+                    }
+
+                    .graph {
+                        width: 90%;
+                        height: 100%;
+
+                        img {
+                            width: 100%;
+                            height: 100%;
+                        }
+                    }
+                }
+
+                .date {
+                    padding-top: 10px;
+                    width: 100%;
+                    height: 20%;
+                    display: flex;
+                    justify-content: flex-end;
+
+                    .datebox {
+                        width: 95%;
+                        display: flex;
+                        flex-direction: row;
+                        justify-content: space-between;
+
+                        h4 {
+                            font-size: 10px;
+                            color: #b4b4b4;
+
+                        }
+                    }
+                }
+            }
+
+            .footerbalance {
+                width: 100%;
+                height: 30%;
+
+                .headfooterbalance {
+                    padding-top: 5%;
+                    height: 20%;
+                    width: 100%;
+                    display: flex;
+                    flex-direction: row;
+                    justify-content: space-between;
+                    align-items: center;
+
+                    h4 {
+                        font-size: 24px;
+                        color: white;
+                        font-weight: 700;
+                    }
+
+                    h5 {
+                        font-size: 18px;
+                        color: rgb(121, 121, 121);
+                        font-weight: 700;
+                    }
+                }
+
+                .card {
+                    display: flex;
+                    flex-direction: row;
+                    align-items: center;
+                    justify-content: space-around;
+                    width: 100%;
+                    background: rgba(32, 35, 43, 0.7);
+                    filter: blur(0px);
+                    border-radius: 30px;
+                    height: 40%;
+                    padding: 20px 0;
+                    margin: 20px 0;
+
+                    img {
+                        width: 25px;
+                        height: 25px;
+                    }
+
+                    h5 {
+                        font-size: 10px;
+                    }
+
+                    p {
+                        padding-top: 2px;
+                        font-size: 10px;
+                    }
+
+
+                    #courbe {
+                        width: 60px;
+                        height: 10px;
+                    }
+
+                    button {
+                        padding: 10px 15px;
+                        background-color: black;
+                        border: none;
+                        color: white;
+                        border-radius: 50px;
+                        font-size: 10px;
+                    }
+                }
+            }
+        }
+
+        .infotrade {
+            padding-top: 2%;
+            padding-left: 0%;
+            width: 90%;
+            display: flex;
+            justify-content: space-between;
+            flex-direction: column;
+            align-items: center;
+
+            .recent {
+                padding-top: 5%;
+                display: flex;
+                flex-direction: column;
+                width: 100%;
+                height: 100%;
+
+                .title_recent {
+                    padding: 7% 0;
+                    width: 100%;
+                    height: 15%;
+
+                    h3 {
+                        font-size: 22px;
+                        color: white;
+                        font-weight: 700;
+                    }
+                }
+
+                .trade {
+                    width: 100%;
+                    height: 75%;
+                    display: flex;
+                    flex-direction: column;
+                    justify-content: space-between;
+
+                    .carditrade {
+                        padding: 1% 0;
+                        width: 100%;
+                        height: 15%;
+                        display: flex;
+                        flex-direction: row;
+                        justify-content: space-between;
+
+                        .image {
+                            width: 20%;
+
+                            img {
+                                display: flex;
+                                align-items: center;
+                                width: 45px;
+                                height: 45px;
+                            }
+
+                            #bin {
+                                width: 52px;
+                                padding-left: 5px;
+                            }
+
+                            #late {
+                                width: 63px;
+                                padding-left: 5px;
+                            }
+
+                            #left {
+                                padding-left: 5px;
+                                width: 52px;
+                            }
+                        }
+
+
+
+                        .name {
+                            width: 25%;
+                            height: 100%;
+                            display: flex;
+                            flex-direction: column;
+
+                            h4 {
+                                font-size: 18px;
+                                color: white;
+                            }
+
+                            h6 {
+                                font-size: 14px;
+                                color: #646464;
+                            }
+                        }
+
+                        .info {
+                            width: 45%;
+                            display: flex;
+                            flex-direction: column;
+
+                            h6 {
+                                font-size: 15px;
+                                font-weight: 700;
+                                color: #646464;
+                            }
+
+                        }
+                    }
+                }
+            }
+
+            .assets {
+                display: flex;
+                flex-direction: column;
+                padding-top: 7%;
+                justify-content: space-between;
+                width: 100%;
+                height: 50%;
+
+                h1 {
+                    font-size: 22px;
+                    color: white;
+                    font-weight: 700;
+                    align-items: start;
+                }
+
+                .card_assets {
+                    width: 90%;
+                    height: 40%;
+                    display: flex;
+                    flex-direction: row;
+                    justify-content: space-between;
+                    padding: 20px;
+                    border-radius: 16px;
+                    background: linear-gradient(98.73deg, #611D8D 35.75%, #2F7EC1 73.26%);
+                    border-radius: 30px;
+
+                    .compteur {
+                        display: flex;
+                        flex-direction: row;
+                        align-items: center;
+                        width: 80%;
+                        justify-content: space-around;
+
+
+                        img {
+                            width: 55px;
+                            height: 55px;
+                        }
+
+                        h6 {
+                            font-size: 16px;
+                            font-weight: 700;
+                            color: white;
+                            padding: 5px 0;
+                        }
+
+                        h3 {
+                            font-size: 14px;
+                            color: white;
+                            font-weight: 500;
+                        }
+                    }
+
+                    .name {
+                        width: 25%;
+                        display: flex;
+                        align-items: center;
+
+                        h5 {
+                            font-size: 14px;
+                            color: white;
+                        }
+                    }
+                }
+            }
+
+            #black {
+                color: #101010;
+            }
+        }
+
+    }
+
+}
